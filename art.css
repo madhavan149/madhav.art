@@ -1,0 +1,294 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+header{
+    height: 350px;
+    background-color: rgb(250, 247, 247);
+    color: rgb(0, 8, 8);
+    display: flex;
+}
+
+.content{
+    width: 60%;
+}
+
+header h1{
+    margin: 50px 0px 10px 90px;
+    font-size: 80px;
+}
+
+.content p{
+    margin-left: 90px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.content button{
+    margin-left: 90px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    cursor:pointer;
+}
+
+.image{
+    width: 40%;
+    position: relative;
+    left: 80px;
+    top: 15px;
+    
+}
+img{
+    height: 350px;
+    
+}
+
+.web-bg{
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: black;
+
+}
+
+.about{
+    display: flex;
+}
+
+.image2{
+    width: 40%;
+}
+.image2 > img{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    width: 400px;
+    height: 530px;
+    
+
+
+}
+
+.about-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.para{
+    color: antiquewhite;
+    width: 90%;
+}
+
+h2{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.para p{
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.image3{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    
+}
+
+.image4{
+    margin-left: 20px;
+}
+
+.method{
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.img-size{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+}
+
+.img-size img{
+    width: 200px;  
+    height: 200px;  
+    border-radius: 30px;
+    
+    
+}
+
+.img-size p{
+    color: white;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.contact{
+    position: fixed;
+    bottom: 30px;
+    right:30px;
+    
+    
+}
+
+.contact img{
+    width: 40px;
+    height: 40px;
+}
+
+.last-tab{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+     
+}
+
+.price{  
+    color: rgb(255, 254, 254);
+}
+
+.bg-price h1{
+    font-family: "Metamorphous", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    
+}
+
+.bg-price h3{
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 40px;
+    margin: 20px 20px;
+}
+
+.bg-price ul{
+    margin-left: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+li{
+    padding: 10px 0px;
+    font-family: "Metamorphous", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+
+
+.tb-bg{
+    background-color: white;
+    width: 380px;
+    padding: 20px;
+    border-radius: 20px;
+    padding-bottom: 50px;
+    
+   
+}
+
+.table{
+    color: rgb(14, 13, 13);
+    
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.table h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin: 0%;
+    margin-bottom: 20px;
+}
+
+input{
+    padding: 5px 30px 10px 10px;
+    color: black;
+    margin: 15px 0px;
+    height: 30px;
+    width: 320px;
+    font-size: 15px;
+    
+}
+
+.tb-bg > button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    background: black;
+
+}
+
+footer{
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    word-spacing: 4px;
+    line-height: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    border: solid 3px black;
+
+}
+
+p{
+    font-size: 20px;
+}
+
+.follow p{
+    display:inline;
+    margin-top: 5px;
+}
+
+.social{
+    display: inline;
+    margin-left: 10px;
+}
+
+.facebook{
+    display: inline;
+    position: relative;
+    top: 4px;
+    left: 5px;
+}
+
+.inst{
+    display: inline-block;
+    position: relative;
+    top: 4px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    bottom: 3px;
+}
+
+a:hover{
+    color: grey;
+}
+
+  
+
+
+
+
+
